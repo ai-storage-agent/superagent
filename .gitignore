@@ -1,0 +1,14 @@
+# Local build products and temporary artifacts.
+node_modules/
+lib/
+coverage/
+.artifacts/
+*.log
+
+# Local proposal slides are not published.
+*.[pP][pP][tT][xX]
+
+# Local credentials and environment settings.
+.env
+.env.*
+!.env.example
